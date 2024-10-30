@@ -37,6 +37,8 @@ pip install -r requirements.txt
 
 ### 1. 生成向量数据
 
+修改 `main.py` 中代码块
+
 ```python
 from main import DocVectorizer
 
@@ -46,6 +48,10 @@ vectorizer = DocVectorizer(
     chunk_size=1000
 )
 vectorizer.process_and_save_all()
+```
+
+```python
+python main.py
 ```
 
 ### 2. 测试向量检索
