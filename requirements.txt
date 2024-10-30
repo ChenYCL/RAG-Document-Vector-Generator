@@ -1,0 +1,9 @@
+sentence-transformers
+requests
+beautifulsoup4
+tqdm
+faiss-cpu
+chromadb
+langchain
+langchain-community
+numpy
